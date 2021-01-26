@@ -1,0 +1,52 @@
+.principal {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: minmax(50px, 100px) minmax(100px, 250px) minmax(300px, 1fr) minmax(25px, 50px);
+    grid-gap: 2px;
+    grid-template-areas: "header header header " "aside aside aside" "menu content content" "footer  footer footer";
+}
+
+.principal .header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal .menu {
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal .contenido {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal .contenido .img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.principal .contenido .img img {
+    width: 300px;
+    padding: 3%;
+}
+
+.principal .aside {
+    grid-area: aside;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal .footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}

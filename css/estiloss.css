@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.principal {
+    background: rgba(0, 0, 0, 0.856);
+    max-width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+.principal .header {
+    background: aqua;
+}
+
+.principal .header h1 {
+    font-size: 300%;
+}
+
+.principal .header img {
+    width: 10%;
+}
+
+.principal .contenido h2 {
+    font-size: 180%;
+    padding: 2%;
+}
+
+.menu {
+    background-color: aqua;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5%;
+    font-size: 150%;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.menu li a:active {
+    color: aqua;
+}
+
+.principal .contenido {
+    background-color: aqua;
+    padding: 3%;
+}
+
+.principal .contenido section {
+    padding: 2px;
+    margin: 2px;
+}
+
+.principal .contenido section div ul {
+    padding: 4px;
+    margin: 2px;
+}
+
+.principal .contenido .perfil {
+    background: rgba(252, 0, 0, 0.301);
+}
+
+.principal .contenido .servicios {
+    background: rgba(252, 0, 0, 0.301);
+}
+
+.principal .contenido .ar1,
+.ar3 {
+    background: rgba(0, 0, 0, 0.37);
+}
+
+.principal .contenido .contacto {
+    background: rgba(252, 0, 0, 0.301);
+}
+
+.principal .contenido .perfil article div {
+    padding: 2%;
+    background: rgba(0, 0, 0, 0.301);
+}
+
+.principal .aside {
+    background-color: aqua;
+}
+
+.principal .aside h2 {
+    font-size: 150%;
+}
+
+.aside section {
+    padding: 2%;
+}
+
+.datos li {
+    list-style-type: none;
+}
+
+.principal .footer {
+    background-color: aqua;
+}
+
+.servicios article div li {
+    list-style-type: none;
+}
+
+.servicios li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5%;
+    font-size: 150%;
+    display: block;
+}
+
+.servicios li a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.servicios li a:active {
+    color: aqua;
+}
+
+.arti {
+    background: rgb(21, 21, 22);
+    padding: 2%;
+    margin: 1%;
+    width: 90%;
+    color: rgb(221, 221, 221);
+    font-size: 120%;
+}
+
+.article4 p,
+h3 {
+    padding: 1% 0% 1% 1%;
+    font-size: 100%;
+}
+
+.article4 h2 {
+    font-size: 110%;
+}
+
+.none {
+    display: none;
+}
+
+.arti h2 {
+    font-size: 50%;
+}
